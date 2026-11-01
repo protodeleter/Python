@@ -14,5 +14,12 @@ if __name__ == '__main__':
     # print(lesson1.exe5("123456"))
     # print(lesson1.exe6("b", "python"))
     # print(lesson1.exe7("Exercises"))
-    print(lesson1.exe8("pyton"))
+    # print(lesson1.exe8("pyton"))
+
+    # print("search".find("S"))
+    # print("search".index("S"))
+
+    print(lesson1.exe11("aaabbbbcccddd"))
+    print(lesson1.exe12("banana"))
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

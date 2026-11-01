@@ -52,3 +52,9 @@ def exe8(sr: str):
 
 
     return  sr if len(sr) < 3 else sr[0:3:1]
+
+def exe11(sr: str):
+    return "".join(dict.fromkeys(sr))
+
+def exe12(sr: str):
+    return "".join(dict.fromkeys(sr))
