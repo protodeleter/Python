@@ -19,3 +19,10 @@ def func2(lst1,lst2):
 
 def pipe_fix(nums):
     return [x for x in range(nums[0], nums[-1] + 1)]
+
+
+def invert(lst):
+    return [-x for x in lst ]
+
+def monkey_count(n):
+    return [i for i in range(1, n + 1)]
