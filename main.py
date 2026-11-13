@@ -5,6 +5,7 @@
 
 import lesson1
 import lesson3
+import tuple_exe
 
 if __name__ == '__main__':
     # print(lesson1.exe1("123"))
@@ -19,7 +20,10 @@ if __name__ == '__main__':
     # print("search".find("S"))
     # print("search".index("S"))
 
-    print(lesson1.exe11("aaabbbbcccddd"))
-    print(lesson1.exe12("banana"))
+    # print(lesson1.exe11("aaabbbbcccddd"))
+    # print(lesson1.exe12("banana"))
+    # print(tuple_exe.create_tuple())
+    # tuple_exe.create_tuple2()
+    print(tuple_exe.exe3())
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
