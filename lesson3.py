@@ -1,3 +1,6 @@
+import math
+
+
 def func1():
     lst = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
@@ -26,3 +29,29 @@ def invert(lst):
 
 def monkey_count(n):
     return [i for i in range(1, n + 1)]
+
+# Fixed Tests
+# Positive Constant
+#  (4 of 4 Assertions)
+# Negative Constant
+#  (4 of 4 Assertions)
+# Completed in 0.11ms
+def seqlist(first, c, l):
+    return [first + i * c for i in range(l)]
+
+
+# Exersize 10
+# Fucntion filters the list
+# if list item is negative int it reverses its digits preserving the negative value
+#
+
+
+def is_prime(num):
+    return num > 1 and not any(num % x == 0 for x in range(2, num))
+
+print(is_prime(100))
+
+def is_funny(string):
+    return len([s for s in string if s != 'h' and s != 'a']) == 0
+
+print(is_funny('haha'))
