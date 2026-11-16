@@ -24,6 +24,9 @@ if __name__ == '__main__':
     # print(lesson1.exe12("banana"))
     # print(tuple_exe.create_tuple())
     # tuple_exe.create_tuple2()
-    print(tuple_exe.exe3())
+    # print(tuple_exe.exe3())
 
+    coords = [(1,2),(3,4),(5,6),(7,8)]
+
+    print(tuple_exe.exe12(coords))
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

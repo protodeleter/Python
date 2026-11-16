@@ -42,3 +42,13 @@ def exe9():
 # exe 10
 # (1,1,2)
 
+# exe 11
+# answer 2
+
+def exe12(coords):
+
+    fliped = []
+    for i,j in coords:
+        print(i,j)
+        fliped.append((i,-j))
+    return fliped
